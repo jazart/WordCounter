@@ -1,0 +1,67 @@
+﻿CHANGELOG 7.1.0_r4 > 7.1.0_r7
+
+
+ea5d153 Updating security string to 2016-11-05 on nyc-dev
+560ccb0 Updating Security String to 2016-11-01 on nyc-dev
+5b5f716 Fix cast from pointer to integer of different size
+f74f2bf Security Vulnerability - CVE-2012-6702 and CVE-2016-5300
+8577253 Decoder: Fixes for handling errors in multi-slice MB Aff streams
+8aba266 Fix in the case of invalid SPS PPS
+a088de6 Limit mp4 atom size to something reasonable
+bf6f3aa SampleIterator: clear members on seekTo error
+efbe57e Check mprotect result
+a0555f5 IOMX: do not clear buffer if it's allocated by component
+7352b65 OMXNodeInstance: sanity check portIndex.
+6e5985f IOMX: allow configuration after going to loaded state
+945bac9 Fix free-after-use for MediaHTTP
+9deaa27 IOMX: do not convert ANWB to gralloc source in emptyBuffer
+8947e99 Radio: get service by value.
+7eae5b2 SoundTrigger: get service by value.
+58ef1e9 Fix stack content leak vulnerability in mediaserver
+11a565b Fix potential overflow in Visualizer effect
+c958a18 DO NOT MERGE: IOMX: work against metadata buffer spoofing
+9a61895 Ignore loss of IPv6 provisioning when not avoiding bad Wi-Fi.
+03d0f46 Slightly simplify IpManager#compareProvisioning.
+a205569 Conditionally accept loss of on-link IPv6 DNS servers
+cadd8e9 Refactor "avoid bad wifi" logic into a utility class
+2d22d81 Continue if package is not in system
+7078020 Rematch wifi networks when the avoid bad wifi setting changes.
+e6fb776 Add debug output for bad wifi avoidance restrictions.
+a21d687 Support "don't ask again" in the avoid bad wifi dialog.
+964c76b Update the avoid bad wifi settings on the handler thread.
+4110093 Disable network switching toasts on Verizon.
+18fce9a Unit tests for avoid bad wifi networks setting.
+6123f6d Support displaying a dialog when wifi becomes unvalidated.
+1bfa4c5 Support ignoring penalty for bad wifi networks
+ce5bc7f Explicitly pass old score to updateCapabilities
+8d4ca48 Change bang to x for indication of no internet
+874ec8c Fixed a bug with incorrect handling of onUnlockUser
+48ce97a Avoid crashing when downloading MitM'd PAC that is too big am: 7d2198b586 am: 9c1cb7a273 am: 6634e90ad7 am: 66ee2296a9
+ad58c1c DO NOT MERGE Check caller for sending media key to global priority session
+d206d52 Fix build break due to automerge of 7d2198b5
+c186ac5 Catch all exceptions when parsing IME meta data
+a4a346b Fix deadlock in AcitivityManagerService.
+7b79e69 Only return password for account session flow if the caller is signed with system key and have get_password permission.
+6be1713 Ensure munmap matches mmap
+cac4e4e Fix setPairingConfirmation permissions issue (2/2)
+
+
+9c20939 Backport changes to whitelist sockets opened by the zygote.
+5756cb0 Use "all_downloads" instead of "my_downloads".
+ce344a7 Add stub of avoidUnvalidated() to ConnectivityServiceMock.
+c889225 Dispose pendingMO connection on phone type switch.
+6eca75d Fix potential overflow in Visualizer effect
+2d03e3e Change MAP to send one new message event when encrypted storage is unlocked
+a3a09d2 Fix setPairingConfirmation permissions issue (1/2)
+c2b630c Preventing a shortcut which requires permissions from being added to homescreen
+d8caf412 Update text of wifi to cell autoswitch toggle
+93e2917 Add a "Don't ask again" checkbox to the avoid bad wifi dialog.
+e473aea Bad Wi-Fi: Change strings to carrier specs
+3cedf83 Add a "Cellular data fallback" pref.
+1be3441 Fix unintended modification of the NO_INTERNET dialog.
+5f88ee9 Support displaying a dialog when Wi-Fi loses Internet access.
+ceec8c3 Enforce calling identity before clearing.
+45e0fc2 Cleanup Connections in conference controllers on CDMA<-->GSM change.
+0982640 liblog: add __android_log_close()
+c098dd1 Fix potential overflow in Visualizer effect
+6b1268f Allow the zygote to stat all files it opens.
